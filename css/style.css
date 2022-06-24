@@ -1,0 +1,169 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{   
+   border-bottom: 3px solid rgba(0, 0, 255, 0.636);
+   height: 150px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    
+}
+.header_top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    margin-left: 200px;   
+    font-size: 23px;   
+}
+.logo img{
+    height: 100px;
+}
+.header_top p{
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    color: blue;    
+}
+.information{
+    margin-top: 70px;
+    display: flex;
+    padding-top: 13px;     
+}
+.information a{
+    padding: 10px 10px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.langue{
+    margin-right: 200px;
+    margin-top: 1px;    
+}
+
+/********Main*/
+.contenu_main{
+    background-image: url("/images/degrade.jpg");
+    background-size: contain;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row; 
+}
+.contenu_articles, .internationals{
+    width: 50%;
+}
+.description p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: blue;
+}
+.description span{
+    font-size: 19px;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+.actualites{
+    display: flex;   
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;   
+}
+.actualites img{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.actualites h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    width: 50%;
+    text-align: center; 
+    margin: 0 auto;   
+}
+
+/* Les articles */
+.articles{
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 20px;
+    
+}
+.articles p{
+    padding: 2px auto;
+    margin-left: 5px; 
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+    font-size: 17px;  
+}
+.articles img{
+    margin-bottom: 15px;
+}
+.btn{
+    margin: 40px auto;
+    width: 90%;
+}
+button{
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-size: 17px;    
+}
+
+/* side rigth main */
+.international{
+    background-image: url("/images/fleche_gauche.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.international h2{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    width: 50%;
+    text-align: center; 
+    margin: 0 auto;      
+}
+.carte_monde img{
+    width: 100%;
+}
+.video{
+    padding-bottom: 15px;
+}
+
+footer{
+    width: auto;
+    background-color: black; 
+    width: auto;
+    height: 100px;   
+}
+.contact, .conception{
+   width: 50%;
+   margin: 0 auto;  
+   text-align: center; 
+}
+.contact{
+    padding-top: 10px;
+}
+.contact a{
+    font-size: 15px;
+    padding-left: 20px;
+    text-align: center;
+}
+.conception p{
+    font-size: 15px;
+    color: white; 
+    margin-top: 10px;  
+}
+
+
+
+
+
